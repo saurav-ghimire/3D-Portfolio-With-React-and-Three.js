@@ -23,6 +23,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  jasper,
+  versity,
+  wordpress
 } from "../assets";
 
 export const navLinks = [
@@ -42,19 +45,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "WordPress Developer",
+    icon: mobile,
+  },
+  {
+    title: "UI/UX Designer",
     icon: creator,
   },
 ];
@@ -109,8 +112,8 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "WordPress",
+    icon: wordpress,
   },
 ];
 
@@ -118,7 +121,7 @@ const experiences = [
   {
     title: "Frontend / Wordpress Theme Developer",
     company_name: "Jasper IT",
-    icon: starbucks,
+    icon: jasper,
     iconBg: "#383E56",
     date: "Sep 2018 - Feb 2023",
     points: [
@@ -135,7 +138,7 @@ const experiences = [
   {
     title: "Full Stack Wordpress Developer",
     company_name: "Versity Tech Pvt. Ltd.",
-    icon: tesla,
+    icon: versity,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Sep 2023",
     points: [
@@ -177,68 +180,53 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Ecommerce",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to search, buy Products from various providers, providing a convenient and efficient solution for Ecommerce needs.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "API",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Frontend",
         color: "pink-text-gradient",
+      },
+      {
+        name: "Redux",
+        color: "green-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/saurav-ghimire/Myntra-Clone",
+    project_link: "https://simple-myntra-ecommerce-clone.netlify.app/",
   },
   {
-    name: "Job IT",
+    name: "Todo App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to add todo list, view all created list and delete it.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Context API",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Frontend",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
+    source_code_link: "https://github.com/saurav-ghimire/React-Todo-App.git",
+    project_link: "https://custom1-todo-app.netlify.app/",
+  }
 ];
 
 export { services, technologies, experiences, testimonials, projects };

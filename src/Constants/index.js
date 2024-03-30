@@ -180,6 +180,36 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Food Ordering App",
+    description:
+      "Web-based platform that allows users to search, order foods, providing a convenient and efficient solution for Ordering needs.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "API",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Frontend",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/saurav-ghimire/Full-Stack-Food-Delivery-App-React-Redux-Firebase",
+    project_link: "https://simplefoodorderingsystem.netlify.app/",
+  },
+  {
     name: "Ecommerce",
     description:
       "Web-based platform that allows users to search, buy Products from various providers, providing a convenient and efficient solution for Ecommerce needs.",

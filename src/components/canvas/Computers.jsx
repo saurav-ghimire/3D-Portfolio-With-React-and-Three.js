@@ -1,4 +1,4 @@
-import React, { Suspense, useEffect, useState } from "react";
+import React, { Suspense, useEffect, useState, useRef } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
@@ -6,10 +6,28 @@ import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
+  const meshRef = useRef();
+
+  // Check for NaN values in position attribute
+  useEffect(() => {
+    if (meshRef.current) {
+      const positions = meshRef.current.geometry.getAttribute("position");
+
+      if (positions) {
+        const array = positions.array;
+        for (let i = 0; i < array.length; i++) {
+          if (Number.isNaN(array[i])) {
+            console.error("NaN value found at index", i, "of position attribute");
+            // Optionally, you can break here or handle the NaN value
+          }
+        }
+      }
+    }
+  }, [computer]);
 
   return (
-    <mesh>
-      <hemisphereLight intensity={2.5} groundColor='black' />
+    <mesh ref={meshRef}>
+      <hemisphereLight intensity={2.5} groundColor="black" />
       <spotLight
         position={[-20, 50, 10]}
         angle={0.12}
@@ -55,7 +73,7 @@ const ComputersCanvas = () => {
 
   return (
     <Canvas
-      frameloop='demand'
+      frameloop="demand"
       shadows
       dpr={[1, 2]}
       camera={{ position: [20, 3, 5], fov: 25 }}

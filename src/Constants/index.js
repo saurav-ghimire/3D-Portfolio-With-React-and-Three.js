@@ -25,7 +25,8 @@ import {
   threejs,
   jasper,
   versity,
-  wordpress
+  wordpress,
+  todo
 } from "../assets";
 
 export const navLinks = [
@@ -236,7 +237,7 @@ const projects = [
     project_link: "https://simple-myntra-ecommerce-clone.netlify.app/",
   },
   {
-    name: "Todo App",
+    name: "Todo App With React",
     description:
       "Web application that enables users to add todo list, view all created list and delete it.",
     tags: [
@@ -256,6 +257,28 @@ const projects = [
     image: jobit,
     source_code_link: "https://github.com/saurav-ghimire/React-Todo-App.git",
     project_link: "https://custom1-todo-app.netlify.app/",
+  },
+  {
+    name: "Todo App : Next.js and MongoDB",
+    description:
+      "Web application that enables users to add todo list, view all created list and delete it.",
+    tags: [
+      {
+        name: "Next JS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Context API",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Mongo DB",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: todo,
+    source_code_link: "https://github.com/saurav-ghimire/Todo-App-Next-JS-with-MongoDB",
+    project_link: "https://todo-app-next-js-with-mongo-db.vercel.app/",
   }
 ];
 

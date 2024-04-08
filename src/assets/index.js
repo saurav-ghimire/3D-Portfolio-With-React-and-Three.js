@@ -32,9 +32,11 @@ import jasper from "./company/jasper.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import todo from "./todo.png";
 
 export {
   logo,
+  todo,
   backend,
   creator,
   mobile,

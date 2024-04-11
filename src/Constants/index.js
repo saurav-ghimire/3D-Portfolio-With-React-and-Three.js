@@ -26,7 +26,8 @@ import {
   jasper,
   versity,
   wordpress,
-  todo
+  todo,
+  stock
 } from "../assets";
 
 export const navLinks = [
@@ -279,6 +280,28 @@ const projects = [
     image: todo,
     source_code_link: "https://github.com/saurav-ghimire/Todo-App-Next-JS-with-MongoDB",
     project_link: "https://todo-app-next-js-with-mongo-db.vercel.app/",
+  },
+  {
+    name: "Stock Management : Next.js and MongoDB",
+    description:
+      "Web application that enables users to add edit stocks.",
+    tags: [
+      {
+        name: "Next JS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Mongo DB",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: stock,
+    source_code_link: "https://github.com/saurav-ghimire/Stock-Management-Using-Next.js-and-MongoDB.git",
+    project_link: "https://stock-management-using-next-js-and-mongo-db-two.vercel.app/",
   }
 ];
 

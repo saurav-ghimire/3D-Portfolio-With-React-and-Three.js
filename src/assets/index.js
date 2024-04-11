@@ -33,6 +33,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import todo from "./todo.png";
+import stock from "./stock.png";
 
 export {
   logo,
@@ -66,5 +67,6 @@ export {
   tripguide,
   jasper,
   versity,
-  wordpress
+  wordpress,
+  stock
 };

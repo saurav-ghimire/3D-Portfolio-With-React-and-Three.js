@@ -27,7 +27,8 @@ import {
   versity,
   wordpress,
   todo,
-  stock
+  stock,
+  doctor
 } from "../assets";
 
 export const navLinks = [
@@ -181,6 +182,36 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Doctor Booking Application",
+    description:
+      "This project is built with React, Next.js, Tailwind CSS, and Strapi for easy doctor booking.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Next.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "API",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Frontend",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Strapi",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: doctor,
+    source_code_link: "https://github.com/saurav-ghimire/Doctor-Appointment-Booking",
+    project_link: "https://doctor-appointment-booking-nu.vercel.app/",
+  },
   {
     name: "Food Ordering App",
     description:

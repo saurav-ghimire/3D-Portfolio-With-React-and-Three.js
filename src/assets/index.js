@@ -34,6 +34,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import todo from "./todo.png";
 import stock from "./stock.png";
+import doctor from "./doctor.png";
 
 export {
   logo,
@@ -68,5 +69,6 @@ export {
   jasper,
   versity,
   wordpress,
-  stock
+  stock,
+  doctor
 };

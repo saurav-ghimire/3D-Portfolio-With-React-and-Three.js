@@ -35,6 +35,7 @@ import tripguide from "./tripguide.png";
 import todo from "./todo.png";
 import stock from "./stock.png";
 import doctor from "./doctor.png";
+import rs from "./rs.png";
 
 export {
   logo,
@@ -70,5 +71,6 @@ export {
   versity,
   wordpress,
   stock,
-  doctor
+  doctor,
+  rs
 };

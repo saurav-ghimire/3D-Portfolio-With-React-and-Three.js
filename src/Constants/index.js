@@ -28,7 +28,8 @@ import {
   wordpress,
   todo,
   stock,
-  doctor
+  doctor,
+  rs
 } from "../assets";
 
 export const navLinks = [
@@ -182,6 +183,36 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Real Estate Application",
+    description:
+      "This project is built with React, Next.js, Tailwind CSS, and supabase for easy real estate solutions.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Next.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Frontend",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Supabase",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "green-text-gradient",
+      },
+    ],
+    image: rs,
+    source_code_link: "https://github.com/saurav-ghimire/Real-Estate-With-Next.js-and-Supabase.git",
+    project_link: "https://real-estate-with-next-js-and-supabase.vercel.app/",
+  },
   {
     name: "Doctor Booking Application",
     description:

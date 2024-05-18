@@ -36,6 +36,7 @@ import todo from "./todo.png";
 import stock from "./stock.png";
 import doctor from "./doctor.png";
 import rs from "./rs.png";
+import amazon from "./amazon.png";
 
 export {
   logo,
@@ -72,5 +73,6 @@ export {
   wordpress,
   stock,
   doctor,
-  rs
+  rs,
+  amazon
 };

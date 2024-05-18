@@ -198,6 +198,10 @@ const projects = [
         color: "green-text-gradient",
       },
       {
+        name: "Typescript",
+        color: "blue-text-gradient",
+      },
+      {
         name: "Frontend",
         color: "pink-text-gradient",
       },
@@ -210,7 +214,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: rs,
+    image: amazon,
     source_code_link: "https://github.com/saurav-ghimire/Amazon-Clone-Next-js-and-Supabase.git",
     project_link: "https://amazon-clone-with-supabase.vercel.app/",
   },
